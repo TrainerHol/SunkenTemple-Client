@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>SunkenTemple</title>
+    <title>Sunken Temple</title>
   </head>
   <body style="text-align: center; width: 100vw; height: 100vh; margin: 0px; padding: 0px; background-color: #000">
     <canvas id="unity-canvas" style="width: 100vw; height: 100vh; overflow: hidden;
-    background: #231F20"
+    background: #1D2B43"
             mozallowfullscreen="true" allow="autoplay; fullscreen *;" scrolling="no"></canvas>
     <script src="Build/Build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data",
-        frameworkUrl: "Build/Build.framework.js",
-        codeUrl: "Build/Build.wasm",
+        dataUrl: "Build/Build.data.unityweb",
+        frameworkUrl: "Build/Build.framework.js.unityweb",
+        codeUrl: "Build/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "TrainerHol",
-        productName: "SunkenTemple",
+        productName: "Sunken Temple",
         productVersion: "0.1",
       });
     </script>
